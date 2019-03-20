@@ -1,7 +1,8 @@
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background: pink;
+    /* background: pink; */
+    margin: 0;
 }
 
 h1,
@@ -19,7 +20,7 @@ h1 {
     line-height: 1.5;
     letter-spacing: -.2px;
     color: white;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     /*text-decoration: dashed;*/
 }
 
@@ -27,6 +28,27 @@ h1 {
 h1 strong{
     color: #026fff;
 }
+
+.portfolio{
+    background: #fafafa;
+}
+
+.project{
+    /*  border-top: 10px solid red;
+      border-right: 10px solid green;
+      border-left: 10px solid blue;
+      border-bottom: 10px solid yellow;*/
+      /*border-color: #027fff ; */
+      /*border-top-color: red;
+      border-top-width: 15px;
+      border-top-style: solid; */
+      border: 1px solid gray;
+      border-radius: 10px;
+      margin: 10px;
+      margin-bottom: 15px;
+      padding: 20px;
+      background: white;
+  }
 
 .hero {
     height: 300px;
